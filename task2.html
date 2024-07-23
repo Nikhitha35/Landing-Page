@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilverStone</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <header>
+        <div style="font-size: 33px;"class="top-bar">
+            <div class="contact-info">
+                <span class="phone">+0123456789</span>
+                <span class="email">Example@Gmail.Com</span>
+            </div>
+            <div class="account-info">
+                <span class="account">My Account</span>
+                <span class="language">Language</span>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img3.png" alt="RapidShop Logo" width="100%">
+            </div>
+            <ul style="font-size: 33px;"class="nav-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">PAGES</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <!-- <div class="search-cart">
+                <span class="search-icon">🔍</span>
+                <span class="cart-icon">🛒<span class="cart-count"></span></span>
+            </div> -->
+        </nav>
+    </header>
+    <div class="carousel">
+        <div class="carousel-item active" style="background-image: url('img4.webp');">
+            <div class="carousel-content">
+                <span class="tag">Women Fashion</span>
+                <h1>NEW COLLECTION</h1>
+                <p>Discover the latest trends and styles in women's fashion. <br> Stay chic and elegant with our new collection.</p>
+                <div class="buttons">
+                    <a href="#" class="btn btn-primary">Shop Now</a>
+                    <a href="#" class="btn btn-secondary">Collection</a>
+                </div>
+            </div>
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+    <script src="task2.js"></script></body>
+</html>
